@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/userprofile', function () {
+    return view('userprofile');
+});
+Route::get('/attendantprofile', function () {
+    return view('attendantprofile');
 });
