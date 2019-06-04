@@ -14,3 +14,9 @@
 Route::get('/perfil', function () {
     return view('index');
 });
+Route::get('/userprofile', function () {
+    return view('userprofile');
+});
+Route::get('/attendantprofile', function () {
+    return view('attendantprofile');
+});
